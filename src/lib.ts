@@ -1,22 +1,3 @@
-// Why where these wrapper components created?
-// Why not write stories just like I see in the storybook documentation?
-
-// As long as wrappers do not confuse the developer, any steps that can be taken
-// to reduce the amount of code that the developer is copying and pasting, the
-// better. This will reduce errors and will make writing stories more enjoyable.
-// This makes stories look more cohesive and reduces distractions for a book
-// where most of the stories have their own templates and args.
-//
-// Storybook stories will also go through breaking changes between Vue v2 and
-// Vue v3. While updating a single story is a trivial task, reformatting the
-// arguments for every story written, would be a hassle. This should allow us
-// to move through the breaking change by only changing the function that
-// generates a story.
-//
-// All configuration here is built from functional components, so a developer
-// will be able to easily debug any storybook configuration by seeing the
-// output of each of these functions.
-
 type AnyObject = {
   [x: string]: any;
 };
