@@ -1,2 +1,3 @@
-# storybook-config
-Storybook configuration for Funda projects
+# Storybook Config
+
+Configuration for Funda storybook projects.

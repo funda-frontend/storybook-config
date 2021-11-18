@@ -1,0 +1,29 @@
+{
+    "name": "@funda/storybook-config",
+    "version": "0.1.0",
+    "description": "Storybook config for Funda projects",
+    "main": "./build/index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "files": [
+        "build/**/*.js",
+        "build/**/*.ts"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/funda-frontend/storybook-config.git"
+    },
+    "keywords": [
+        "storybook"
+    ],
+    "author": "funda",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/funda-frontend/storybook-config/issues"
+    },
+    "homepage": "https://github.com/funda-frontend/storybook-config#readme",
+    "engines": {
+        "node": ">=14"
+    }
+}
