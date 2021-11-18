@@ -39,6 +39,7 @@
         "node": ">=14"
     },
     "dependencies": {
-        "@funda/storybook-wrapper-helper": "^1.1.0"
+        "@funda/storybook-wrapper-helper": "^1.1.0",
+        "@storybook/theming": "^6.3.12"
     }
 }
